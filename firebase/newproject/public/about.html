@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>LEARN CRAFTER</title>
+         <link rel = " stylesheet " href = " style.css " >
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="https://kit.fontawesome.com/a2be552f77.css" crossorigin="anonymous">
+    </head>
+<body>
+<section class="sub-header">
+ <nav>
+     <a href="index.html"><img src="images/logo.jpeg"></a>
+     <div class="nav-links" id="navLinks">
+         <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="about.html">ABOUT</a></li>
+             <li><a href="contact.html">CONTACT</a></li> 
+         </ul>
+     </div>
+     <i class="fa fa-bars" onclick="showMenu()"></i>
+ </nav>
+    <h1> ABOUT US</h1>
+</section>
+ 
+<!--------------about us content-------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>MYKNOT Services OPC Private Limited</h1>
+            <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.
+
+                A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                
+                On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their</p>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+</section>
+<!--------------Footer-------------->
+<section class="footer">
+    <h4>©2023 by Harish</h4>
+    <div class="icons">
+        <a href="https://github.com/irahgem">
+           <i class="fa fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/harish-b-a35836177/">
+        <i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>harishbharish6@gmail.com</p>
+    <p>Created for MYKNOT Services OPC Private Limited </p><a href="https://www.linkedin.com/in/harish-b-a35836177/" target="_blank"><p>by Harish B</p></a>
+</section>
+<!----------Javascript for Toggle menu----------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
